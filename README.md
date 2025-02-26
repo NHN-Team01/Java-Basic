@@ -1,6 +1,10 @@
 # Team 01 - Java Basic Study
+<br/>
+
 ### 📖 사용 교재
 #### [Introduction to Programming Using Java Version 9.0, JavaFX Edition](https://math.hws.edu/javanotes/index.html)
+
+<br/>
 
 ### 진행 방법 🥊
 1. 스터디 참여자는 챕터별로 자신의 이름의 폴더를 생성한다
@@ -15,8 +19,12 @@
 <br/>
 
 ### 스터디 Convention 📣
+#### Branch
+- 브랜치 이름은 자신의 이름으로 한다
+  - ex) `hunmin`
+
 #### Commit
-- 커밋 메시지는 [Docs] Chapter_챕터번호 로 한다.
+- 커밋 메시지는 [Docs] Chapter_챕터번호 로 한다
   - ex) `[Docs] Chapter_01`
   - `git commit -m "[Docs] Chapter_01"`
 #### Pull Request
