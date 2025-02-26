@@ -47,7 +47,7 @@
 
 ### 추가적으로, 요즘은 CPU 안에 L1, L2, L3 등 캐시메모리를 넣어놓는다.
 
-![image.png](img/image 1.png)
+![image.png](img/image1.png)
 
 - 보통, 클럭단위로 동작을 한다.
 
@@ -74,9 +74,9 @@
 
 - 기계어는 이렇게 생겼대
 
-![image.png](img/image 2.png)
+![image.png](img/image2.png)
 
-![image.png](img/image 3.png)
+![image.png](img/image3.png)
 
 - 해석을 하자면 R1 으로 PC 를 옮기고 3을 빼라 이런 말이래.
 
@@ -84,29 +84,29 @@
 
 ### 1. 명령어 저장
 
-![image.png](img/image 4.png)
+![image.png](img/image4.png)
 
 초기 언어는 다르지만 결국 어셈블리 언어로 변환이 되어서 컴퓨터가 이해할 수 있도록 변환된다
 
 ### 2. 명령어 로드
 
-![image.png](img/image 5.png)
+![image.png](img/image5.png)
 
 어떤 것들은 주소값이 저장되고 어떤 것은 그냥 그대로의 값이 저장이 된다.
 
 ### 3. 명령어 해석
 
-![image.png](img/image 6.png)
+![image.png](img/image6.png)
 
 ### 4. 명령 실행
 
-![image.png](img/image 7.png)
+![image.png](img/image7.png)
 
 ## CPU는 깊게 들어가면 결국 레지스터 밖에 없다.
 
 이 레지스터들을 이용해서 어떤 시스템을 만들게 되는 것.
 
-![image.png](img/image 8.png)
+![image.png](img/image8.png)
 
 # Section 2. **Asynchronous Events: Polling Loops and Interrupts**
 
@@ -121,7 +121,7 @@
 
 ### 데이터 버스로 연결되어 CPU는 각 장치를 제어하는 명령을 보내거나 데이터를 받곤 한다
 
-![image.png](img/image 9.png)
+![image.png](img/image9.png)
 
 - 키보드, 마우스, 네트워크 인터페이스 등은 CPU가 처리해야할 입력들을 생성한다.
 
